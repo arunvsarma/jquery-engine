@@ -2,7 +2,7 @@
     "application": {
         "name":"Sample Application",
         "version": "4.10.1",
-        "author": "CST",
+        "author": "Arun Sarma",
         "libraries":[
                     {
                         "name":"fontawesome",
