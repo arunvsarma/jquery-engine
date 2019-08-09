@@ -1,0 +1,326 @@
+{
+    "application": {
+        "name":"Akamai Event Center",
+        "version": "4.10.1",
+        "author": "CST",
+        "libraries":[
+                    {
+                        "name":"fontawesome",
+                        "type":"css",
+                        "fileVersion": "1.0",
+                        "libpath":"skin/fonts/glyphs/css/font-awesome.min.css"
+                    },
+                    {
+                        "name":"datatable",
+                        "type":"javascript",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/datatable/js/jquery.dataTables.min.js"
+                    },
+                    {
+                        "name":"clipboard",
+                        "type":"javascript",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/clipboard/clipboard.min.js"
+                    },
+                    {
+                        "name":"datatable",
+                        "type":"javascript",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/datatable/dataTables.bootstrapPagination.js"
+                    },
+                    {
+                        "name":"datatable",
+                        "type":"css",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/datatable/css/jquery.dataTables.min.css"
+                    },
+                    {
+                        "name":"Highcharts",
+                        "type":"javascript",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/highcharts/highstock.js"
+                    },
+                    {
+                        "name":"Highcharts",
+                        "type":"javascript",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/highcharts/highcharts-more.js"
+                    },
+                    {
+                        "name": "datepicker",
+                        "type": "css",
+                        "fileVersion": "1.0",
+                        "libpath": "libs/utils/jquery_ui_datepicker/jquery-ui.css"
+                    },
+                    {
+                        "name": "datepicker",
+                        "type": "javascript",
+                        "fileVersion": "1.0",
+                        "libpath": "libs/utils/jquery_ui_datepicker/jquery-ui.js"
+                    },
+                    {
+                        "name": "datetimepicker",
+                        "type": "css",
+                        "fileVersion": "1.0",
+                        "libpath": "libs/utils/datetimepicker/jquery-ui-timepicker-addon.min.css"
+                    },
+                    {
+                        "name": "datetimepicker",
+                        "type": "javascript",
+                        "fileVersion": "1.0",
+                        "libpath": "libs/utils/datetimepicker/jquery-ui-sliderAccess.js"
+                    },
+                    {
+                        "name": "datetimepicker",
+                        "type": "javascript",
+                        "fileVersion": "1.0",
+                        "libpath": "libs/utils/datetimepicker/jquery-ui-timepicker-addon.min.js"
+                    },
+                    {
+                        "name":"momentjs",
+                        "type":"javascript",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/moment.min.js"
+                    },
+                    {
+                        "name":"slimscroll",
+                        "type":"javascript",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/slimscroll/jquery.slimscroll.min.js"
+                    },
+                    {
+                        "name":"autocomplete",
+                        "type":"javascript",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/autocomplete/jquery.autocomplete.min.js"
+                    },
+                    {
+                        "name":"d3v3",
+                        "type":"javascript",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/d3/d3.v3.min.js"
+                    },
+                    {
+                        "name":"jvectormap",
+                        "type":"css",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/jvectormap/jquery-jvectormap-1.2.2.css"
+                    },
+                    {
+                        "name":"jvectormap",
+                        "type":"javascript",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/jvectormap/jquery-jvectormap-1.2.2.min.js"
+                    },
+                    {
+                        "name":"jvectormap",
+                        "type":"javascript",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/jvectormap/jquery-jvectormap-world-mill-en.js"
+                    },
+                    {
+                        "name":"blockUI",
+                        "type":"javascript",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/blockui/jquery.blockUI.js"
+                    },
+                    {
+                        "name":"growl",
+                        "type":"javascript",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/jqgrowl/js/jquery.growl.js"
+                    },
+                    {
+                        "name":"growl",
+                        "type":"css",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/jqgrowl/css/jquery.growl.css"
+                    },
+                    {
+                        "name":"tokenInput",
+                        "type":"javascript",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/tokeninput/jquery.tokeninput.js"
+                    },
+                    {
+                        "name":"tokenInput",
+                        "type":"css",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/tokeninput/token-input-facebook.css"
+                    },
+                    {
+                        "name":"tokenInput",
+                        "type":"css",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/tokeninput/token-input.css"
+                    },
+                    {
+                        "name":"chips",
+                        "type":"javascript",
+                        "fileVersion": "4.94",
+                        "libpath":"libs/core/red/jquery.chips.js"
+                    },
+                    {
+                        "name":"AppVars",
+                        "type":"javascript",
+                        "fileVersion": "4.94",
+                        "libpath":"models/appvars.js"
+                    },
+                    {
+                        "name":"AppComponents",
+                        "type":"javascript",
+                        "fileVersion": "4.94",
+                        "libpath":"controllers/appcomponents.js"
+                    },
+                    {
+                        "name":"select2",
+                        "type":"javascript",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/select2/select2.min.js"
+                    },
+                    {
+                        "name":"select2",
+                        "type":"css",
+                        "fileVersion": "1.0",
+                        "libpath":"libs/utils/select2/select2.min.css"
+                    }
+
+       	],
+        "pages": [
+            {
+                "pageName":"HOME",
+                "pageTitle":"Homepage",
+                "pageSubTitle":"This is the homepage",
+                "layoutColumns": 1,
+                "showInNavigation":false,
+                "pageController": "",
+                "pageControllerVersion": "4.94",
+                "componentList": [
+                    {
+                        "view": "header",
+                        "fileVersion": "4.94",
+                        "wrapper": "row",
+                        "column": "page"
+
+                    },
+                    {
+                        "view": "placeholder",
+                        "fileVersion": "4.94",
+                        "wrapper": "row",
+                        "column": "page"
+
+                    },
+                    {
+                        "view": "footer",
+                        "fileVersion": "4.94",
+                        "wrapper": "row",
+                        "column": "page"
+                    }
+                ]
+            },
+            {
+                "pageName": "WITH-NAVIGATION",
+                "pageTitle": "Page With Navigation",
+                "pageSubTitle": "Sample page with navigation",
+                "layoutColumns": 1,
+                "showInNavigation": false,
+                "pageController": "",
+                "pageControllerVersion": "4.94",
+                "componentList": [{
+                        "view": "header",
+                        "fileVersion": "4.94",
+                        "wrapper": "row",
+                        "column": "page"
+
+                    },
+                    {
+                        "view": "navigation",
+                        "fileVersion": "4.94",
+                        "wrapper": "leftpanel-collapsed",
+                        "column": "page"
+
+                    },
+                    {
+                        "view": "placeholder",
+                        "fileVersion": "4.94",
+                        "wrapper": "row",
+                        "column": "page"
+
+                    },
+                    {
+                        "view": "footer",
+                        "fileVersion": "4.94",
+                        "wrapper": "row",
+                        "column": "page"
+                    }
+                ]
+            },
+            {
+                "pageName": "DASHBOARD",
+                "pageTitle": "Page With Navigation",
+                "pageSubTitle": "Sample page with navigation",
+                "layoutColumns": 1,
+                "showInNavigation": false,
+                "pageController": "",
+                "pageControllerVersion": "4.94",
+                "componentList": [{
+                        "view": "header",
+                        "fileVersion": "4.94",
+                        "wrapper": "row",
+                        "column": "page"
+
+                    },
+                    {
+                        "view": "navigation",
+                        "fileVersion": "4.94",
+                        "wrapper": "leftpanel-collapsed",
+                        "column": "page"
+
+                    },
+                    {
+                        "view": "placeholder",
+                        "fileVersion": "4.94",
+                        "wrapper": "row",
+                        "column": "page"
+
+                    },
+                    {
+                        "view": "footer",
+                        "fileVersion": "4.94",
+                        "wrapper": "row",
+                        "column": "page"
+                    }
+                ]
+            },
+            {
+                "pageName": "ERROR",
+                "pageTitle": "Error page",
+                "pageSubTitle": "Error page",
+                "layoutColumns": 1,
+                "showInNavigation": false,
+                "pageController": "",
+                "pageControllerVersion": "4.94",
+                "componentList": [
+                    {
+                        "view": "header",
+                        "fileVersion": "4.94",
+                        "wrapper": "row",
+                        "column": "page"
+
+                    }, {
+                        "view": "error",
+                        "fileVersion": "4.94",
+                        "wrapper": "row",
+                        "column": "page"
+
+                    }, {
+                        "view": "footer",
+                        "fileVersion": "4.94",
+                        "wrapper": "row",
+                        "column": "page"
+                    }
+                ]
+            }
+        ]
+    }
+}

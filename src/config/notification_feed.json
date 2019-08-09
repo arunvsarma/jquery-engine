@@ -1,0 +1,27 @@
+{
+    "application": {
+        "name":"UXD - Notification Feed",
+        "version": "1.0.0",
+        "author": "Arun Sarma",
+        "notifications":[
+            {
+                "name":"System Notification - Maintenance",
+                "date":"2017 05 29",
+                "type":"alert",
+                "message":"This app will be migrated to newer servers and therefore will be unavailable between 02:30 PM IST (05:00 AM ET) - 04:00 PM IST (06:30 AM ET) on May 30th, 2017 "
+            },
+            {
+                "name":"System Notification - Server Migration",
+                "date":"2014 11 02",
+                "type":"alert",
+                "message":"We are migrating the application and database to new servers. You can continue using this application. We will let you know once the migration is complete."
+            },
+            {
+                "name":"System Notification - Server Migration",
+                "date":"2014 11 19",
+                "type":"alert",
+                "message":"We are migrating the application and database to new servers. You can continue using this application. We will let you know once the migration is complete."
+            }
+        ]
+    }
+}
