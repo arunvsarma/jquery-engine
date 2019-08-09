@@ -1,6 +1,6 @@
 {
     "application": {
-        "name":"Akamai Event Center",
+        "name":"Sample Application",
         "version": "4.10.1",
         "author": "CST",
         "libraries":[
