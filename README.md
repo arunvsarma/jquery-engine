@@ -7,9 +7,9 @@ This JQuery plugin was developed sometime during 2014-2015 (when we all loved Ha
 
 ### Dependencies
 Core Libraries
-..* JQuery
-..* Bootstrap
-..* red
+.. JQuery
+.. Bootstrap
+.. red
 
 ### Getting Started
 #### Configuration
