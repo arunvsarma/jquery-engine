@@ -6,8 +6,10 @@ This JQuery plugin was developed sometime during 2014-2015 (when we all loved Ha
 > The plugin is no longer in active development and this is an early version of the plgin that I found in my archives, hence Support will be limited. It uses really old versions of dependent libraries (Jquery, bootstrap etc). Upgrading them to the latest versions might cause unexpected issues.
 
 ### Dependencies
-
-
+Core Libraries
+..* JQuery
+..* Bootstrap
+..* red
 
 ### Getting Started
 #### Configuration
