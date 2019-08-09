@@ -14,14 +14,14 @@ Core Libraries
 
 ### Getting Started
 Once you have pulled the code to your computer, you will find the following folders
-* src
-* * config
+* *src*
+* * *config*
 * * * application.json
 * * * notification_feed.json
-* * controllers
+* * *controllers*
 * * * appcomponents.js
 * * * index.js
-* * libs
+* * *libs*
 * * * core
 * * * * bootstrap
 * * * * - css
@@ -34,15 +34,15 @@ Once you have pulled the code to your computer, you will find the following fold
 * * * * * red
 * * * * - jquery.engine.js
 * * * * - jquery.engine.min.js
-* * libs - Folder containing third-party libraries (I will not list them)
-* * models
+* * * * utls - Folder containing third-party libraries (I will not list them)
+* * *models*
 * * * appvars.js - Will contain all the global variables and constants
-* * skin
+* * *skin*
 * * * css
 * * * fonts
 * * * images
-* * views
-* index.html
+* * *views*
+* *index.html*
   
 
 #### Configuration
